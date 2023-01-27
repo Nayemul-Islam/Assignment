@@ -131,6 +131,9 @@ body {
     hwb(103 18% 9%)
   );
 }
+.buttion2 button {
+  padding-top: 17px;
+}
 .extra {
   width: 100%;
   color: black;
@@ -187,17 +190,33 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   row-gap: 15px;
 }
-.form
-{
+.form {
   width: 460px;
-  padding: 10px; 
+  padding: 10px;
   border: 10px solid blue;
   display: grid;
-  grid-template-rows:repeat(14,40px);
+  grid-template-rows: repeat(14, 40px);
 }
-.form input
-{
+.form input {
   border: 1px solid black;
   border-radius: 5px;
   padding: 1px 5px;
+}
+.card {
+  background-color: white;
+  margin: 30px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px #b1b2ae;
+  width: 250px;
+}
+.img-style {
+  padding: 10px 40px;
+}
+.card-container
+{
+  margin: 100px 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: hsl(180, 10%, 88%);
 }
