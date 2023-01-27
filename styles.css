@@ -1,9 +1,10 @@
 html,
 body {
+  width: 100%;
   font-family: "Poppins", sans-serif;
-  margin: 10px 100px;
 }
 .calender {
+  margin: 10px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,6 +174,7 @@ body {
   width: 110px;
 }
 .loginmain {
+  margin: 10px 100px;
   background-color: #ffb700;
   width: 400px;
   height: 500px;
@@ -191,6 +193,7 @@ body {
   row-gap: 15px;
 }
 .form {
+  margin: 10px 100px;
   width: 460px;
   padding: 10px;
   border: 10px solid blue;
@@ -214,7 +217,8 @@ body {
 }
 .card-container
 {
-  margin: 100px 50px;
+  width:900px;
+  margin: 100px 100px;
   display: flex;
   justify-content: center;
   justify-items: center;
